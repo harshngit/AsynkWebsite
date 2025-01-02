@@ -1,0 +1,30 @@
+[
+  {
+    "img": "/assets/imgs/works/1/union.png",
+    "title": "Union Living",
+    "subTitle": "Website",
+    "category": "Web Development",
+    "link": "https://unionliving.in/"
+  },
+  {
+    "img": "/assets/imgs/works/1/meltzsweet.png",
+    "title": "Meltz London",
+    "subTitle": "Food Website",
+    "category": "Web Development",
+    "link": "https://meltzsweets.com/"
+  },
+  {
+    "img": "/assets/imgs/works/1/preppy.png",
+    "title": "Preppy",
+    "subTitle": "Shoes Website",
+    "category": "E-Commerce",
+    "link": "https://preppyshoe.com/"
+  },
+  {
+    "img": "/assets/imgs/works/1/orex.png",
+    "title": "Orex",
+    "subTitle": "Real Estate Website",
+    "category": "Web Development",
+    "link": "https://orex.asynk.in/"
+  }
+]

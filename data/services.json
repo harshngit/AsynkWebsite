@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "title": "E-commerce",
+    "img": "/assets/imgs/serv-icons/3.png",
+    "desc": "From Building Highly Scalable Website to Listings on Marketplaces, We Cover Everything in our E-commerce Service. It includes Shopify Website Development, Payment Gateway and Shipping Integration and Marketplace Listing.",
+    "link": "/page-services-details"
+  },
+  {
+    "id": "02",
+    "title": "Website & App Development",
+    "img": "/assets/imgs/serv-icons/4.png",
+    "desc": "Asynk crafts exceptional websites, Application",
+    "link": "/page-services-details"
+  },
+  {
+    "id": "03",
+    "title": "Branding Design",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "link": "/page-services-details"
+  },
+  {
+    "id": "04",
+    "title": "UI-UX Design",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "link": "/page-services-details"
+  }
+]
