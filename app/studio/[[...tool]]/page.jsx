@@ -8,12 +8,12 @@
  */
 
 import { NextStudio } from 'next-sanity/studio'
-import sanityConfig from '../../../sanity.config';
+import config from '../../../asynksanity/sanity.config'
 
 export const dynamic = 'force-static'
 
 export { metadata, viewport } from 'next-sanity/studio'
 
 export default function StudioPage() {
-  return <NextStudio sanityConfig={sanityConfig} />
+  return <NextStudio config={config} />
 }
