@@ -36,7 +36,6 @@ export default function Home() {
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main className="main-bg o-hidden">
-
 						<Header />
 						<JoiningTable />
 						<Contact />

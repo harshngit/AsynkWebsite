@@ -1,40 +1,55 @@
-import React from 'react'
+"use client";
+import { client } from '@/app/client';
+import React, { useEffect, useState } from 'react';
 
 const JoiningTable = () => {
+	const [careerEntries, setCareerEntries] = useState([]);
+
+	useEffect(() => {
+		// Fetch data from the Sanity client
+		client
+			.fetch(`*[_type == "careerEntry"]{ position, experience, form }`)
+			.then((data) => setCareerEntries(data))
+			.catch(console.error);
+	}, []);
+
 	return (
-		<table class="career-table section-padding">
-			<thead>
-				<tr>
-					<th>Position</th>
-					<th>Experience</th>
-					<th>Action</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Frontend Developer</td>
-					<td>2+ years</td>
-					<td><a href="#" class="butn butn-full butn-bord radius-30">Apply Now</a></td>
-				</tr>
-				<tr>
-					<td>Backend Developer</td>
-					<td>3+ years</td>
-					<td><a href="#" class="butn butn-full butn-bord radius-30">Apply Now</a></td>
-				</tr>
-				<tr>
-					<td>UI/UX Designer</td>
+		<>
+			<table className="career-table section-padding">
+				<thead>
+					<tr>
+						<th>Position</th>
+						<th>Experience</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					{careerEntries.length > 0 ? (
+						careerEntries.map((item, index) => (
+							<tr key={index}>
+								<td>{item?.position}</td>
+								<td>{item?.experience}</td>
+								<td>
+									<a
+										href={item?.form}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="butn butn-full butn-bord radius-30"
+									>
+										Apply Now
+									</a>
+								</td>
+							</tr>
+						))
+					) : (
+						<tr>
+							<td colSpan="3">No career entries available.</td>
+						</tr>
+					)}
+				</tbody>
+			</table>
+		</>
+	);
+};
 
-					<td>1+ year</td>
-					<td><a href="#" class="butn butn-full butn-bord radius-30">Apply Now</a></td>
-				</tr>
-				<tr>
-					<td>Marketing Specialist</td>
-					<td>5+ years</td>
-					<td><a href="#" class="butn butn-full butn-bord radius-30">Apply Now</a></td>
-				</tr>
-			</tbody>
-		</table>
-	)
-}
-
-export default JoiningTable
+export default JoiningTable;

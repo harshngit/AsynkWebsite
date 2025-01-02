@@ -8719,6 +8719,13 @@ footer.clean-footer.crev .circle-blur {
   .main-post .post-qoute h6:before {
     top: 70px;
   }
+
+  .career-table .butn.butn-full {
+    width: 100%;
+    /* padding: -2px 2px; */
+    text-align: center;
+    font-size: 8px;
+  }
 }
 
 /* ====================== [ End Responsive ] ====================== */

@@ -32,10 +32,10 @@ function Footer() {
                   <a href="/page-about">About</a>
                 </li>
                 <li className="mb-15">
-                  <a href="/page-services">Services</a>
+                  <a href="/portfolio-grid">Work</a>
                 </li>
                 <li className="mb-15">
-                  <a href="/blog-grid-sidebar">Blog</a>
+                  <a href="/page-career">Career</a>
                 </li>
                 <li>
                   <a href="/page-contact">Contact</a>

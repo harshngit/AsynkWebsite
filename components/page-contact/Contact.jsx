@@ -32,7 +32,7 @@ function Contact() {
 
   return (
     <>
-      <ToastContainer />
+      <ToastContainer className="mt-100" />
       <section className="contact section-padding">
         <div className="container">
           <div className="row">
