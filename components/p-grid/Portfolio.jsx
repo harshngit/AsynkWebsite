@@ -203,7 +203,7 @@ function Portfolio() {
           <div className="col-lg-4 col-md-6 items development">
             <div className="item mb-50">
               <div className="img">
-                <img src="/assets/imgs/works/1/ashmit.png" alt="" />
+                <img src="/assets/imgs/works/1/introtelecom.png" alt="" />
               </div>
               <div className="cont d-flex align-items-end mt-30">
                 <div>

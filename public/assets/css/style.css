@@ -4634,8 +4634,74 @@ body.loaded {
   height: 100%;
 }
 
+/* Career
+-----------------------------------------------------------------*/
+.career-table {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.career-table .butn.butn-full {
+  width: 100%;
+  padding: 15px 2px;
+  text-align: center;
+}
+
+.career-table thead {
+  background-color: #fd6219;
+  color: #fff;
+}
+
+.career-table th,
+.career-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.career-table th {
+  font-size: 18px;
+}
+
+.career-table tbody tr {
+  background-color: #000;
+}
+
+
+/* .career-table tbody tr:hover {
+  background-color: #f1f1f1;
+} */
+
+/* .career-table tbody tr:last-child td {
+  border-bottom: none;
+
+} */
+
+.apply-btn {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #218838;
+}
+
 /* Features
 -----------------------------------------------------------------*/
+
 .accordion .item:first-of-type .title {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -4909,7 +4975,11 @@ footer.clean-footer.crev .circle-blur {
 }
 
 .crev-header .caption h1 {
-  font-size: 90px;
+  font-size: 68px;
+}
+
+.crev-header .caption p {
+  font-size: 15px;
 }
 
 .crev-header .caption h1 .line_through {
