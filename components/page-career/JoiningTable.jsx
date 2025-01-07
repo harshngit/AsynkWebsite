@@ -15,39 +15,41 @@ const JoiningTable = () => {
 
 	return (
 		<>
-			<table className="career-table section-padding">
-				<thead>
-					<tr>
-						<th>Position</th>
-						<th>Experience</th>
-						<th>Action</th>
-					</tr>
-				</thead>
-				<tbody>
-					{careerEntries.length > 0 ? (
-						careerEntries.map((item, index) => (
-							<tr key={index}>
-								<td>{item?.position}</td>
-								<td>{item?.experience}</td>
-								<td>
-									<a
-										href={item?.form}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="butn butn-full butn-bord radius-30"
-									>
-										Apply Now
-									</a>
-								</td>
-							</tr>
-						))
-					) : (
+			{careerEntries.length > 0 &&
+				<table className="career-table section-padding">
+					<thead>
 						<tr>
-							<td colSpan="3">No career entries available.</td>
+							<th>Position</th>
+							<th>Experience</th>
+							<th>Action</th>
 						</tr>
-					)}
-				</tbody>
-			</table>
+					</thead>
+					<tbody>
+						{careerEntries.length > 0 ? (
+							careerEntries.map((item, index) => (
+								<tr key={index}>
+									<td>{item?.position}</td>
+									<td>{item?.experience}</td>
+									<td>
+										<a
+											href={item?.form}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="butn butn-full butn-bord radius-30"
+										>
+											Apply Now
+										</a>
+									</td>
+								</tr>
+							))
+						) : (
+							<tr>
+								<td colSpan="3">No career entries available.</td>
+							</tr>
+						)}
+					</tbody>
+				</table>
+			}
 		</>
 	);
 };
