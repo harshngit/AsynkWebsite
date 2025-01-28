@@ -19,18 +19,18 @@ function Portfolio() {
           <div className="filtering col-lg-8 d-flex justify-content-end align-items-end">
             <div>
               <div className="filter">
-                <span data-filter="*" className="active" data-count="08">
+                <span data-filter="*" className="active" data-count="11">
                   All
                 </span>
-                <span data-filter=".design" data-count="03">
-                  Design
+                <span data-filter=".ecom" data-count="04">
+                  E-commerce
                 </span>
-                <span data-filter=".development" data-count="02">
+                <span data-filter=".development" data-count="06">
                   Development
                 </span>
-                <span data-filter=".marketing" data-count="03">
+                {/* <span data-filter=".marketing" data-count="03">
                   Marketing
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -38,6 +38,7 @@ function Portfolio() {
       </div>
       <div className="container">
         <div className="gallery row md-marg">
+          {/* Union Living */}
           <div className="col-lg-4 col-md-6 items design">
             <div className="item mb-50">
               <div className="img">
@@ -56,7 +57,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 items marketing">
+          {/* Orex Venture */}
+          <div className="col-lg-4 col-md-6 items development">
             <div className="item mb-50">
               <div className="img">
                 <img src="/assets/imgs/works/1/orex.png" alt="" />
@@ -74,7 +76,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 items design">
+          {/* Tejaswini Herbs */}
+          <div className="col-lg-4 col-md-6 items ecom">
             <div className="item mb-50">
               <div className="img">
                 <img src="/assets/imgs/works/1/tejaswani.png" alt="" />
@@ -92,7 +95,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 items development">
+          {/* Royal Bird Incense */}
+          <div className="col-lg-4 col-md-6 items ecom">
             <div className="item mb-50">
               <div className="img">
                 <img src="/assets/imgs/works/1/royal.png" alt="" />
@@ -110,7 +114,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 items design">
+          {/* Preppy */}
+          <div className="col-lg-4 col-md-6 items ecom">
             <div className="item mb-50">
               <div className="img">
                 <img src="/assets/imgs/works/1/preppy.png" alt="" />
@@ -128,7 +133,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 items marketing">
+          {/* Meltz London */}
+          <div className="col-lg-4 col-md-6 items development">
             <div className="item mb-50">
               <div className="img">
                 <img src="/assets/imgs/works/1/meltzsweet.png" alt="" />
@@ -146,7 +152,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 items marketing">
+          {/* Ekttaar */}
+          <div className="col-lg-4 col-md-6 items ecom">
             <div className="item mb-50">
               <div className="img">
                 <img src="/assets/imgs/works/1/ekttaar.png" alt="" />
@@ -164,6 +171,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+          {/* GRC Logistics */}
           <div className="col-lg-4 col-md-6 items development">
             <div className="item mb-50">
               <div className="img">
@@ -182,6 +190,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+          {/* Ashmit  */}
           <div className="col-lg-4 col-md-6 items development">
             <div className="item mb-50">
               <div className="img">
@@ -200,6 +209,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+          {/* Inter Telecom */}
           <div className="col-lg-4 col-md-6 items development">
             <div className="item mb-50">
               <div className="img">
@@ -212,6 +222,25 @@ function Portfolio() {
                 </div>
                 <div className="ml-auto">
                   <a href="https://introtelecom.in/" target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Rumman */}
+          <div className="col-lg-4 col-md-6 items development">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/Rumanacc.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Website</span>
+                  <h6>Ruman - Accounting Intelligence</h6>
+                </div>
+                <div className="ml-auto">
+                  <a href="https://www.rumanaccounting.com/" target='_blank'>
                     <span className="ti-arrow-top-right"></span>
                   </a>
                 </div>
