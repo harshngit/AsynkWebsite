@@ -19,7 +19,7 @@ function Portfolio() {
           <div className="filtering col-lg-8 d-flex justify-content-end align-items-end">
             <div>
               <div className="filter">
-                <span data-filter="*" className="active" data-count="11">
+                <span data-filter="*" className="active" data-count="13">
                   All
                 </span>
                 <span data-filter=".ecom" data-count="04">
@@ -28,9 +28,9 @@ function Portfolio() {
                 <span data-filter=".development" data-count="06">
                   Development
                 </span>
-                {/* <span data-filter=".marketing" data-count="03">
+                <span data-filter=".marketing" data-count="03">
                   Marketing
-                </span> */}
+                </span>
               </div>
             </div>
           </div>
@@ -244,6 +244,63 @@ function Portfolio() {
                     <span className="ti-arrow-top-right"></span>
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+          {/* RILD */}
+          <div className="col-lg-4 col-md-6 items marketing">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/rild.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Marketing</span>
+                  <h6>RILD</h6>
+                </div>
+                {/* <div className="ml-auto">
+                  <a target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div> */}
+              </div>
+            </div>
+          </div>
+          {/* dil se khana */}
+          <div className="col-lg-4 col-md-6 items marketing">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/13.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Marketing</span>
+                  <h6>Dil Se Khana</h6>
+                </div>
+                {/* <div className="ml-auto">
+                  <a target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div> */}
+              </div>
+            </div>
+          </div>
+          {/* Meri Banvat */}
+          <div className="col-lg-4 col-md-6 items marketing">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/MeriBanvat.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Marketing</span>
+                  <h6>Meri Banvat</h6>
+                </div>
+                {/* <div className="ml-auto">
+                  <a target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>
