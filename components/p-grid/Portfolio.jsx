@@ -28,7 +28,8 @@ function Portfolio() {
                 <span data-filter=".development" data-count="06">
                   Development
                 </span>
-                <span data-filter=".marketing" data-count="03">
+                <span data-filter=".marketing" data-count="04
+                ">
                   Marketing
                 </span>
               </div>
@@ -301,6 +302,44 @@ function Portfolio() {
                     <span className="ti-arrow-top-right"></span>
                   </a>
                 </div> */}
+              </div>
+            </div>
+          </div>
+          {/* Janeil art works */}
+          <div className="col-lg-4 col-md-6 items marketing">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/jeinil.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Marketing</span>
+                  <h6>𝐉𝐀𝐈𝐍𝐈𝐋 𝐀𝐑𝐓 𝐉𝐄𝐖𝐄𝐋𝐋𝐄𝐑𝐘</h6>
+                </div>
+                <div className="ml-auto">
+                  <a href='https://www.instagram.com/jainilartjewellery?igsh=MWloMXR3bWl2cHMwcQ%3D%3D' target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Ambiator */}
+          <div className="col-lg-4 col-md-6 items ecom">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/Ambiator.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">E-commerce Website</span>
+                  <h6>Ambiator</h6>
+                </div>
+                <div className="ml-auto">
+                  <a href="https://www.ambiator.com/" target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
