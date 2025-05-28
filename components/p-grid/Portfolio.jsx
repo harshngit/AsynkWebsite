@@ -19,16 +19,16 @@ function Portfolio() {
           <div className="filtering col-lg-8 d-flex justify-content-end align-items-end">
             <div>
               <div className="filter">
-                <span data-filter="*" className="active" data-count="13">
+                <span data-filter="*" className="active" data-count="16">
                   All
                 </span>
                 <span data-filter=".ecom" data-count="04">
                   E-commerce
                 </span>
-                <span data-filter=".development" data-count="06">
+                <span data-filter=".development" data-count="07">
                   Development
                 </span>
-                <span data-filter=".marketing" data-count="04
+                <span data-filter=".marketing" data-count="06
                 ">
                   Marketing
                 </span>
@@ -337,6 +337,63 @@ function Portfolio() {
                 </div>
                 <div className="ml-auto">
                   <a href="https://www.ambiator.com/" target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Kevalya Marketing */}
+          <div className="col-lg-4 col-md-6 items marketing">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/kevalyamarketing.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">MARKETING</span>
+                  <h6>Kevlaya</h6>
+                </div>
+                <div className="ml-auto">
+                  <a href="https://www.instagram.com/kevalya_house.of.elegance?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Ruman Marketing*/}
+          <div className="col-lg-4 col-md-6 items marketing">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/rumanmarketing.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Marketing</span>
+                  <h6>Ruman</h6>
+                </div>
+                <div className="ml-auto">
+                  <a href='https://www.instagram.com/ruman.accounting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank'>
+                    <span className="ti-arrow-top-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* RS */}
+          <div className="col-lg-4 col-md-6 items development">
+            <div className="item mb-50">
+              <div className="img">
+                <img src="/assets/imgs/works/1/rs.png" alt="" />
+              </div>
+              <div className="cont d-flex align-items-end mt-30">
+                <div>
+                  <span className="p-color mb-5 sub-title">Website</span>
+                  <h6>Riddhi Siddhi</h6>
+                </div>
+                <div className="ml-auto">
+                  <a href="https://www.riddhisiddhicpl.in/" target='_blank'>
                     <span className="ti-arrow-top-right"></span>
                   </a>
                 </div>
