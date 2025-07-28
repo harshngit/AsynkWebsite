@@ -44,20 +44,12 @@ export default function Home() {
           <main className="main-bg o-hidden">
             <Header />
             <Marq2 />
-            {/* <Services /> */}
-            {/* <Services /> */}
-            {/* <Feat /> */}
             <Services />
             <Intro />
             <Numbers />
-            {/* <Portfolio /> */}
             <Portfolio />
             <Intro2 />
-            {/* <Team /> */}
-            {/* <Testimonials /> */}
             <Clients />
-            {/* <Blog /> */}
-
           </main>
           <Footer />
         </div>

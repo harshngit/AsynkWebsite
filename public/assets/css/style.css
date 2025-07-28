@@ -8728,6 +8728,10 @@ footer.clean-footer.crev .circle-blur {
   }
 }
 
+.w-110{
+  width:120px;
+}
+
 /* ====================== [ End Responsive ] ====================== */
 .carddx {
   break-inside: avoid;

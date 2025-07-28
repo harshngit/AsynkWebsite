@@ -289,6 +289,11 @@ function Navbar() {
                 <span className="rolling-text">Career</span>
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/page-ai">
+                <span className="rolling-text">Artificial Intelligence</span>
+              </a>
+            </li>
           </ul>
         </div>
 

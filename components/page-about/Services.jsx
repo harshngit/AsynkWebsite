@@ -145,6 +145,36 @@ function Services() {
             </div>
           </div>
         </div>
+        <div className="item pb-0">
+          <div className="row md-marg align-items-end">
+            <div className="col-lg-4">
+              <div>
+                <span className="num">05</span>
+                <div>
+                  <span className="sub-title main-color mb-10">Development</span>
+                  <h2>
+                    AI<span className="fw-200">ML Development</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="text md-mb80">
+                <p>
+                  We are a dynamic tech agency delivering web and software solutions tailored to modern business needs.Trusted by startups and brands for building scalable digital platforms
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="img fit-img">
+                <img src="/assets/imgs/serv-img/service_5.png" alt="" />
+                {/* <a href="/page-services-details">
+                  <span className="ti-arrow-top-right"></span>
+                </a> */}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
